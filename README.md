@@ -1,12 +1,106 @@
-# React + Vite
+# 🎬 Moviehub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek React web app to search and explore trending movies using the TMDB API.
 
-Currently, two official plugins are available:
+![License](https://img.shields.io/github/license/Abhishek404Yadav/Moviehub)
+![Languages](https://img.shields.io/github/languages/top/Abhishek404Yadav/Moviehub)
+![Last Commit](https://img.shields.io/github/last-commit/Abhishek404Yadav/Moviehub)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Moviehub Screenshot](./public/preview.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🔍 Live search with 500ms debounce
+- 🌐 TMDB API integration
+- 📈 Trending movies list
+- ⚡ Loading spinner
+- ❌ Error message handling
+- 🎨 Responsive UI using Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+- React + Vite
+- Tailwind CSS
+- TMDB API
+
+---
+
+## 📦 Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Abhishek404Yadav/Moviehub.git
+cd Moviehub
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure environment variables
+
+Create a `.env` file in the root directory:
+
+```
+VITE_API_KEY=your_tmdb_api_key_here
+```
+
+> Get your API key from https://www.themoviedb.org/settings/api
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   ├── Search.jsx
+│   ├── MovieCard.jsx
+│   └── Loader.jsx
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🌟 Future Improvements
+
+- Movie detail modal/page
+- Genre-based filtering
+- Watchlist feature
+- Dark mode toggle
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork, create a branch, and submit a pull request.
+
+---
+
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Author
+
+**Abhishek Yadav**  
+📧 abhiyadav.ce@gmail.com  
+🔗 [GitHub](https://github.com/Abhishek404Yadav)
